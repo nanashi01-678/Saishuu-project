@@ -1,3 +1,11 @@
+.flex{display:flex;}
+.flex{display: flex; /*横並び*/}
+.flex .image {width: 640px; /*画像サイズ指定*/
+              margin: 0;
+              padding: 0;}
+.flex .text {margin: 0 0 0 20px;
+            padding: 0;}
+
 #nav{list-style: none;
     overflow: hidden;}　//はみ出し部分
 #nav li{width:300px;
