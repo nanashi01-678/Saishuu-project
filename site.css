@@ -19,7 +19,8 @@
           height: 50px;
           line-height: 50px;/*一行の高さ*/
           margin-right: 2px;/*メニューボタンの右の余白*/
-  　　　　 padding: 20px;}
+  　　　　 padding: 20px;
+          }
 
 .flex {
   display: flex; /*横並び*/
