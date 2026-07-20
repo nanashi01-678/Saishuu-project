@@ -2,6 +2,13 @@ body{
     background-image:url("./image/back.haikei.111.png");
 }
 
+.img-box img {
+   width: 100%;
+}
+.img-box {
+   text-align:center;
+}
+
 #nav{list-style: none;
     overflow: hidden; /*はみ出し部分*/}
 #nav li{width:300px;
