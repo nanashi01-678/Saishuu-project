@@ -1,1 +1,12 @@
 p.rekishi {border: double 10px #000000;}
+body{
+    background-image:url("./image/back.haikei.111.png");
+    background-repeat: no repeat;
+}
+
+.img-box {
+   margin:0 auto;
+}
+.img-box {
+   text-align:center;
+}
