@@ -1,5 +1,6 @@
 body{
     background-image:url("./image/back.haikei.111.png");
+    background-repeat: repeat;
 }
 
 .img-box {
