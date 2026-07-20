@@ -2,8 +2,9 @@ body{
     background-image:url("./image/back.haikei.111.png");
 }
 
-.img-box img {
-   width: 100%;
+.img-box {
+   margin:0 auto;
+}
 }
 .img-box {
    text-align:center;
