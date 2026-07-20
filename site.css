@@ -35,7 +35,9 @@ body{
   background:#333;
 }
 
-
+.text-background-text1{
+    color:#FFFFFF;
+}
 .flex {
   display: flex; /*横並び*/
 }
