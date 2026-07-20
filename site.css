@@ -22,7 +22,7 @@ body{
           font-weight: bold;
           height: 50px;
           line-height: 50px;/*一行の高さ*/
-          margin-right: 2px;/*メニューボタンの右の余白*/
+          margin-right: 2px/*メニューボタンの右の余白*/;
   　　　　 padding: 20px;
           }
     .title{font-size: 2.0em}
