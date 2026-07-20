@@ -1,3 +1,16 @@
+body{
+    background-image:url("./image/back.haikei.111.png");
+    background-repeat: no repeat;
+}
+
+.img-box {
+   margin:0 auto;
+}
+.img-box {
+   text-align:center;
+}
+
+
 /* スライダー全体の枠 */
 .css-slider {
 width: 100%;
