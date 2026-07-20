@@ -27,12 +27,13 @@ body{
           }
     .title{font-size: 2.0em}
 .text-background-text1 {
+  color:#fff
   display: inline-block;
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.4em;
   padding: 5px;
-  background:#00a3af;
+  background:#333;
 }
 
 
