@@ -1,5 +1,6 @@
 body{
-    background-image:url("./image/
+    background-image:url("./image/back.haikei.111.png");
+}
 
 #nav{list-style: none;
     overflow: hidden; /*はみ出し部分*/}
