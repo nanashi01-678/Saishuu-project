@@ -54,4 +54,5 @@ animation-play-state: paused;
 
 ul {
   display: flex;
+justify-content: center;
 }
