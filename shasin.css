@@ -43,6 +43,15 @@ display: block;
 100%           { transform: translateX(-75%); }  /*ループ用(1枚目と同じ)へ移動して終了 */
 }
 /*マウスを乗せたときに止める設定 */
+
+
 .css-slider:hover .slider-inner {
 animation-play-state: paused;
+}
+
+
+
+
+ul {
+  display: flex;
 }
