@@ -55,5 +55,7 @@ animation-play-state: paused;
 ul {
   display: flex;
 justify-content: center;
+}
+li:nth-child(2) {   
     margin: 0 20px;
 }
