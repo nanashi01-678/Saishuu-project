@@ -41,7 +41,7 @@ display: block;
 33.33%, 58.97% { transform: translateX(-25%); }  
 66.67%, 92.31% { transform: translateX(-50%); }  
 100%           { transform: translateX(-75%); }  
-
+}
 
 
 .css-slider:hover .slider-inner {
@@ -78,7 +78,7 @@ li img {
 }
 
 .text-background-text1{
-    color:#FFFFFF;
+     color:#FFFFFF;}
 
 .text iti{
     text-align:center;
