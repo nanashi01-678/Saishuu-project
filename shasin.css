@@ -49,7 +49,7 @@ animation-play-state: paused;
 }
 
 
-.shasin {
+ul {
   display: flex;
 justify-content: center;
 }
