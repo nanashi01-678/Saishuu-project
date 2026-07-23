@@ -49,7 +49,7 @@ animation-play-state: paused;
 }
 
 
-.photo-list {
+ul {
   display: flex;
 justify-content: center;
     padding-left: 0;
@@ -58,16 +58,16 @@ justify-content: center;
 
      
 }
-.photo-list li:nth-child(2) {   
+li:nth-child(2) {   
     margin: 0 20px;
 }
 
-.photo-list li {
+ li {
   flex: 1;               /* 3つの縦列を均等な幅にする */
   max-width: 300px;      /* HTMLで指定した最大横幅 */
 }
 
-.photo-list li img {
+ li img {
   width: 100%;           /* 親のliの幅に合わせて画像を縮小する */
   height: auto;          /* 縦横比を崩さない */
 }
