@@ -5,8 +5,6 @@ body{
 
 .img-box {
    margin:0 auto;
-}
-.img-box {
    text-align:center;
 }
 
@@ -28,7 +26,9 @@ margin: 0;
 animation: slide-anim 19.5s infinite;
 }
 .slider-inner li {
-width: 25%;/*100% ÷ 全画像数（ループ用含め4枚） */
+width: 25%; !important
+ max-width: none !important;
+flex: none !important;
 }
 .slider-inner li img {
 width: 100%;
@@ -49,21 +49,25 @@ animation-play-state: paused;
 }
 
 
-ul {
+.photo-list {
   display: flex;
 justify-content: center;
+    padding-left: 0;
+    list-style: none;
 }
 
-li:nth-child(2) {   
+     
+}
+.photo-list li:nth-child(2) {   
     margin: 0 20px;
 }
 
-li {
+.photo-list li {
   flex: 1;               /* 3つの縦列を均等な幅にする */
   max-width: 300px;      /* HTMLで指定した最大横幅 */
 }
 
-li img {
+.photo-list li img {
   width: 100%;           /* 親のliの幅に合わせて画像を縮小する */
   height: auto;          /* 縦横比を崩さない */
 }
@@ -75,11 +79,8 @@ li img {
   line-height: 1.4em;
   padding: 5px;
   background:#333;
-}
-
-.text-background-text1{
      color:#FFFFFF;}
 
-.text iti{
+.text-iti{
     text-align:center;
 }
