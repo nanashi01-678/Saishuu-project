@@ -63,13 +63,13 @@ li:nth-child(2) {
 }
 
  li {
-  flex: 1;               /* 3つの縦列を均等な幅にする */
-  max-width: 300px;      /* HTMLで指定した最大横幅 */
+  flex: 1;               
+  max-width: 300px;     
 }
 
  li img {
-  width: 100%;           /* 親のliの幅に合わせて画像を縮小する */
-  height: auto;          /* 縦横比を崩さない */
+  width: 100%;          
+  height: auto;          
 }
 
 .text-background-text1 {
