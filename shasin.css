@@ -11,21 +11,21 @@ body{
 }
 
 
-/* スライダー全体の枠 */
+
 .css-slider {
 width: 100%;
-max-width: 1000px;/*ショップに合わせた最大横幅 */
+max-width: 1000px;
 margin: 0 auto;
-overflow: hidden;/*枠からはみ出した画像を切る */
+overflow: hidden;
 }
-/*画像を横に並べる中身 */
+
 .slider-inner {
 display: flex;
 width: 400%;/*画像数（実質3枚+ループ用1枚）× 100% */
 list-style: none;
 padding: 0;
 margin: 0;
-animation: slide-anim 19.5s infinite;/*合計時間：（5秒+1.5秒）×3枚 = 19.5秒 */
+animation: slide-anim 19.5s infinite;
 }
 .slider-inner li {
 width: 25%;/*100% ÷ 全画像数（ループ用含め4枚） */
@@ -35,14 +35,13 @@ width: 100%;
 height: auto;
 display: block;
 }
-/*スライドの動きを指定（静止時間を作るための記述） */
+
 @keyframes slide-anim {
-0%, 25.64%   { transform: translateX(0); }       /*1枚目表示(5秒間) */
-33.33%, 58.97% { transform: translateX(-25%); }  /*2枚目へ移動(1.5秒) ＋ 表示(5秒間) */
-66.67%, 92.31% { transform: translateX(-50%); }  /*3枚目へ移動(1.5秒) ＋ 表示(5秒間) */
-100%           { transform: translateX(-75%); }  /*ループ用(1枚目と同じ)へ移動して終了 */
-}
-/*マウスを乗せたときに止める設定 */
+0%, 25.64%   { transform: translateX(0); }      
+33.33%, 58.97% { transform: translateX(-25%); }  
+66.67%, 92.31% { transform: translateX(-50%); }  
+100%           { transform: translateX(-75%); }  
+
 
 
 .css-slider:hover .slider-inner {
